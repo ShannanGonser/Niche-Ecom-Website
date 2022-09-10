@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+  <link rel="stylesheet" href="/src/style.css">
+  <script src="/src/script.js" defer></script>
+
+  <title>Products</title>
+</head>
+  <body id="body-watchPgRed-container" class="body" >
+    <!-- Navigation-->
+    <!--Hamburger style Menu-->
+    <div class="div-menu-btn-toggle"onclick="menuDisplayToggle()">
+      <span class="span-menu-tier tier1"></span>
+      <span class="span-menu-tier tier2"></span>
+      <span class="span-menu-tier tier3"></span>
+    
+    <!--Hamburger style Menu after toggle show menu links-->
+    <ul class="ul-menu-items" >
+      <li class="ul-menu-items item0"> <a href="index.html/../../../">Home</a></li>
+      <!-- Menu link: Products jumps to section Watch Trio -->
+      <li class="ul-menu-items item1"> <a href="/../../../#products">Products</a></li>
+      <li class="ul-menu-items item3"> <a href="/src/pages/cart.html">Cart</a></li>
+    </ul> 
+  </div>
+    
+    <div class="div-grid-container">
+    <!--Img side display-->
+    <div class="div-display-container">
+      <div class="div-display watch1">
+        <button class="btn image1">
+        </button>
+      </div>
+
+      <div class="div-display watch2">
+        <button class="btn image2">
+        </button>
+      </div>
+
+      <div class="div-display watch3">
+        <button class="btn image3">
+          <!-- <img src="/src/images/Back prod.png" alt="Back watch view"> -->
+        </button>
+      </div>
+    </div>
+      <!--End Img side display-->
+    <!--Center img display-->
+    <div class="div-display-main mainDisplay">
+    </div>
+    <!--End Center img display-->
+    <!--Display Product Pre-Purchase Details-->
+    <div class="div-product-buy-container">
+      <h1 class="h1-product-Title">Common Red Watch</h1>
+      <h2 class="h2-product-Color">Color: Red</h2>
+      <h2 class="h2-product-Price">Price: $25.25</h2>
+      
+      <button type="button" class="btn-addToCart" onClick = "addCartBtnClick()">Add to cart</button>
+      
+      <div class="div-btn-ItemAmount prodPgAmtBtn">
+        <button type="button" class="btn-ItemAmount btn-Remove" onclick="itemAmountRemove()">-</button>
+        <p class="p-displayItemAmount"></p>
+        <button type="button" class="btn-ItemAmount btn-Add" onclick="itemAmountAdd()">+</button>
+      </div>
+      
+    </div>
+    <!--END Display Product Pre-Purchase Details-->
+      <!--Display Demo Text-->
+      <div class="div-product-specs-container">
+        <h3>About this item</h3>
+        <br>
+        <ul>
+          <li>nibh euismod tincidunt ut laoreet</li>
+          <li>nibh euismod tincidunt ut laoreet</li>
+          <li>nibh euismod tincidunt ut laoreet</li>
+        </ul>
+        <br><br><br>
+        <p>
+          Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea commodoerat volutpat. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea commodo
+          erat volutpat. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea <br><br>
+          ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea commodo
+          erat volutpat. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea 
+          erat volutpat. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea commodoerat volutpat. 
+          <br><br>Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea commodo
+          erat volutpat. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea 
+          ullamcorper suscipit lobortis  
+          nisl ut aliquip ex ea commodo
+          erat volutpat. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper suscipit lobortis  
+          nisl ut aliquip. 
+        </p>
+      </div>
+      <!--END Display Demo Text-->
+      <!--Display user reviews-->
+      <div class="div-reviews-container">
+        <div class="div-reviews person1">
+            <div class="img-avatar-display">
+            <img src="/src/images/pexels-pixabay-33696.jpg" alt="avatar image 1">
+          </div>
+          <h4>User 1</h4>
+          <p><q>commodo erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</q></p>
+        </div>
+        <div class="div-reviews person2">
+          <div class="img-avatar-display">
+            <img src="/src/images/pexels-pixabay-36717.jpg" alt="avatar image 2">
+          </div>
+          <h4>User 2</h4>
+          <p><q>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.</q></p>
+        </div> 
+        <div class="div-reviews person3">
+          <div class="img-avatar-display">
+            <img src="/src/images/pexels-pixabay-279467.jpg" alt="avatar image 3">
+          </div>
+          <h4>User 3</h4>
+          <p><q>ullamcorper suscipit lobortis nisl ut aliquip ex ea ullamcorper suscipit lobortis nisl ut aliquip ex ea.</q></p>
+        </div> 
+        <div class="div-reviews person4">
+          <div class="img-avatar-display">
+            <img src="/src/images/pexels-pixabay-531321.jpg" alt="avatar image 4">
+          </div>
+          <h4>User 4</h4>
+          <p><q>nim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodoerat volutpat.</q></p>
+        </div>            
+      </div>
+      <!--END Display user reviews-->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    
+    <link rel="stylesheet" href="/src/style.css">
+    <script src="/src/script.js" defer></script>
+
+    <title>Home</title>
+
+  </head>
+<body id = "indexPg">
+  <!-- First Watch -->
+  <section class="section-index-page"> 
+    <!-- Navigation-->
+    <!--Hamburger style Menu-->
+    <div class="div-menu-btn-toggle"onclick="menuDisplayToggle()">
+        <span class="span-menu-tier tier1"></span>
+        <span class="span-menu-tier tier2"></span>
+        <span class="span-menu-tier tier3"></span>
+        
+      <!--Hamburger style Menu after toggle show menu links-->
+      <ul class="ul-menu-items" >
+        <li class="ul-menu-items item0"> <a href="index.html">Home</a> </li>
+
+        <!-- Menu link: Products jumps to section Watch Trio -->
+        <li class="ul-menu-items item1"> <a href="#products">Products</a> </li>
+
+        <li class="ul-menu-items item3"> <a href="/src/pages/cart.html">Cart</a> </li>
+      </ul> 
+    </div>
+      
+    <!--END Navigation-->
+
+    <!-- First Watch -->
+    <div class="div-text-front-container">
+      <h1 class="heading-one">Common Watch</h1>
+    </div>
+    
+    <div class="div-img-front-view watch">
+        <img class="img-front" src="src/images/Front.png" alt="Front watch view">
+    </div> 
+
+  </section>
+
+  <!-- 2nd Watch -->
+  <section class="section-index-page">
+    <div class="div-img-back-view watch">
+        <img class="img-back" src="src/images/Back.png" alt="Back watch view">
+    </div>
+
+    <div class="div-text-back-container">
+      <h1 class="heading-one">Common Watch</h1>
+
+      <p class="paragraph"> 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis  
+        nisl ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+  </section>
+
+  <!-- 3rd Watch -->
+  <section class="section-index-page">
+    <div class="div-text-side-container">
+      <h1 class="heading-one">Common Watch</h1>
+      <p class="paragraph"> 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis  
+        nisl ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <div class="div-img-side-view watch">
+      <img class="img-side" src="src/images/Side view.png" alt="Side view watch">
+    </div>
+  </section>
+
+  <!-- Last Watch - Trio -->
+  <section id="products" class="section-index-page" onmouseenter="enterRotateBands()">
+    <div class="div-band-trio-container">
+      <!-- Watch Bands -->
+      <div class="div-bands div-red-band">
+        <img class="img-band-all img-red-band" src="src/images/red-band.png" alt="image red watch band">
+      </div>
+
+      <div class="div-bands div-grey-band">
+          <img class="img-band-all img-grey-band" src="src/images/grey-band.png" alt="image grey watch band">
+      </div>
+
+      <div class="div-bands div-blue-band">
+        <img class="img-band-all img-blue-band" src="src/images/blue-band.png" alt="image blue watch band">
+      </div>
+    </div>
+
+    <!-- Watch Background - Circles -->
+    <div class="div-circle-trio-container">
+      <div class="div-circle-trio circleRed"> 
+          <img id="img-red-circle" src="src/images/red circle.png" alt="Submit form watch with red band ">
+      </div>
+
+      <div class="div-circle-trio circleBlack"> 
+          <img id="img-black-circle" src="src/images/black circle.png" alt="Submit form watch with white band ">
+      </div>
+
+      <div class="div-circle-trio circleBlue"> 
+          <img id="img-blue-circle" src="src/images/blue circle.png" alt="Submit form watch with blue band ">
+      </div>
+      
+    </div>     
+    <div class="div-circle-info-container">
+      <div class="div-watch-info div-redWatch-info" onclick="window.location.href = '/src/pages/Watch-Red.html';">
+        <h2>Common Red Watch</h2>
+      </div>
+      <div class="div-watch-info div-greyWatch-info" onclick="window.location.href = '/src/pages/Watch-Grey.html';">
+        <h2>Common Grey Watch</h2>
+        </a>  
+      </div>
+      <div class="div-watch-info div-blueWatch-info" onclick="window.location.href = '/src/pages/Watch-Blue.html';">
+        <h2 class="h2-watch-info">Common Blue Watch</h2>
+        </a>
+      </div>
+    </div>     
+  </section> 
+</body>
+</html>
